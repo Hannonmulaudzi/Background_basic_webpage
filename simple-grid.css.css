@@ -16,22 +16,28 @@ body {
   left: 50%;
   top: 0;
   font-size: 100%;
-  background-color: rgb(134, 126, 126);
+  background-image: url(tech.jpg);
+  text-align: centre;
   position: static;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .table {
   width: 400px;
+  border: 1em solid white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
 .navbar {
-  background-color: rgb(79, 79, 138);
+  background-color: aliceblue;
   color: rgb(206, 206, 216);
-  height: auto;
   
 }
 .navbar ul {
 display: flex;
+color: aliceblue;
 }
 .navbar a {
   color: white;
@@ -40,7 +46,7 @@ display: flex;
 }
 
 .navbar a:hover {
-  border-bottom: 2px white solid;
+  border-bottom: 2px blue;
 }
 
 .navbar .flex {
@@ -51,7 +57,7 @@ display: flex;
 
 * {
   font-family: 'Lato', Helvetica, sans-serif;
-  color: #333447;
+  color: aliceblue;
   line-height: 1.5;
 }
 
@@ -59,18 +65,22 @@ display: flex;
 
 h1 {
   font-size: 2.5rem;
+  color: aliceblue;
 }
 
 h2 {
   font-size: 2rem;
+  color: aliceblue;
 }
 
 h3 {
   font-size: 1.375rem;
+  color: aliceblue;
 }
 
 h4 {
   font-size: 1.125rem;
+  color: aliceblue;
 }
 
 h5 {
@@ -85,6 +95,7 @@ p {
   font-size: 1.125rem;
   font-weight: 200;
   line-height: 1.8;
+  color: aliceblue;
 }
 
 .font-light {
@@ -125,18 +136,21 @@ p {
   width: 50%;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 
 .row {
   padding: 1em;
   margin: 1em;
   border-radius: 1em;
+  text-align: center;
 }
 
 .row [class^="col"] {
   float: left;
   margin: 0.5rem 2%;
   min-height: 0.125rem;
+  text-align: center;
 }
 
 .col-1,
@@ -156,6 +170,7 @@ p {
 
 .col-1-sm {
   width: 4.33%;
+  text-align: center;
 }
 
 .col-2-sm {
@@ -241,6 +256,7 @@ p {
 
   .col-6 {
     width: 46%;
+    text-align: center;
 
   }
 
@@ -279,3 +295,31 @@ p {
     max-width: 60rem;
   }
 }
+
+
+@media(min-width: 760px){
+  .img {
+    display: flex;
+    align-content: center;
+    object-fit: cover;
+  }
+}
+@media(min-width: 760px)
+.container{
+    display:flex;
+  }
+/*
+.Gwamasenga{
+  border: 2px;
+  padding: 3em;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+*/
+@media(min-width: 760px){
+  .container.flex {
+    display: flex;
+  }
+}
+

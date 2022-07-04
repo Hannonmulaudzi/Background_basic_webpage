@@ -9,8 +9,11 @@
 
 html,
 body {
-  background-color: rgb(79, 79, 138);
+  background-image: url(technology.gif);
+  text-align: centre;
+  
 }
+
 /*.myimage{
   border: 1px solid;
   border-radius: 1em;
@@ -27,6 +30,14 @@ body {
   margin: 1em;
   border-radius: 1em;
   align-content: center;
+}
+
+.box {
+  background-image: url(codin.jpg);
+  padding: 100px;
+  marging: 100px;
+  color: beige;
+  text-align: center;
 }
 
 @media(min-width: 960px){
@@ -56,12 +67,17 @@ body {
 }
 
 table, th, td {
-  border: 1px solid black;
+  border: 1px solid white;
   width: 25em;
+  color: aliceblue;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
   
 }
 .paragraph{
   padding: 5em;
+  color: beige;
 }
 
 @media(min-width: 760px) {
@@ -76,6 +92,7 @@ table, th, td {
   margin: 1em;
   border-radius: 1em;
   text-align: left;
+  color: aliceblue;
 }
 
 .sub2 {
@@ -84,6 +101,7 @@ table, th, td {
   margin: 1em;
   border-radius: 1em;
   text-align: left;
+  color: aliceblue;
 }
 .sub3 {
   flex: 1;
@@ -91,23 +109,25 @@ table, th, td {
   margin: 1em;
   border-radius: 1em;
   text-align: left;
+  color: aliceblue;
 }
 .sub{
   text-align: center;
+  color: aliceblue;
 }
 .navbar {
-  background-color: rgb(79, 79, 138);
-  color: rgb(206, 206, 216);
+  color: white;
   height: auto;
   
 }
 .navbar ul {
 display: flex;
+color: aliceblue;
 }
 .navbar a {
-  color: white;
   padding: 10px;
   margin: 0 5px;
+  color: aliceblue;
 }
 
 .navbar a:hover {
@@ -123,6 +143,8 @@ display: flex;
   overflow: auto;
   padding: 0 40px;
   align-content: center;
+  color: aliceblue;
+  text-align: center;
 }
 
 .flex {
@@ -135,4 +157,5 @@ display: flex;
 .ul {
   list-style-type: none;
   padding: 0;
+  color: aliceblue;
 }
